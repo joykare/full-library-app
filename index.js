@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const Books = require("./server/models/books");
 const seed = require("./utils/seed.js");
 const routes = require("./server/routes/books.js");
-
+require("dotenv").config()
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: false }));
