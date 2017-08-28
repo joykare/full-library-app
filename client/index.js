@@ -1,4 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import LibraryApp from "./components/libraryApp.js";
 
-ReactDOM.render(<div> Hello </div>, document.getElementById("app"));
+ReactDOM.render(<LibraryApp />, document.getElementById("app"));
